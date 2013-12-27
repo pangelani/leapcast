@@ -39,3 +39,7 @@ class Pandora_App(LEAPfactory):
 class TicTacToe(LEAPfactory):
     url = "http://www.gstatic.com/eureka/sample/tictactoe/tictactoe.html"
     supported_protocols = ['com.google.chromecast.demo.tictactoe']
+
+
+class ChromecastDemo(LEAPfactory):
+    url = "http://pangelani.github.io/"
